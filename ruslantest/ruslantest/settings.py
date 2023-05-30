@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "itprogress.apps.ItprogressConfig",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
